@@ -11,5 +11,16 @@
         <h1>Absensi Kehadiran</h1>
         <p>silahkan isi absensinya</p>
     </div>
+
+    <!-- absensi -->
+    <section class="attendance-form">
+        <h2>Absensi</h2>
+        <form id="attendance-from">
+            <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" id="name" placeholder=" Masukan nama Anda">
+            </div>
+        </form>
+    </section>
 </body>
 </html>
