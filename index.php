@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- header -->
+    <div class="header-teks">
+        <h1>Absensi Kehadiran</h1>
+        <p>silahkan isi absensinya</p>
+    </div>
 </body>
 </html>
