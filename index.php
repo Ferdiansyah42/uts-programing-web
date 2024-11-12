@@ -23,7 +23,7 @@
             </div>
             <div class="form-group">
                 <label for="date">Tanggal</label>
-                <input type="text" id="date" required>
+                <input type="date" id="date" required>
             </div>
             <div class="form-grooup">
                 <label for="status">Status</label>
