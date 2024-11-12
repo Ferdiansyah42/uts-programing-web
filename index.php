@@ -16,24 +16,24 @@
     <!-- absensi -->
     <section class="attendance-form">
         <h2>Absensi</h2>
-        <form id="attendance-from">
+        <form id="attendance-form">
             <div class="form-group">
                 <label for="name">Nama</label>
-                <input type="text" id="name" placeholder=" Masukan nama Anda" required>
+                <input type="text" id="name" placeholder="Masukkan nama Anda" required>
             </div>
             <div class="form-group">
                 <label for="date">Tanggal</label>
                 <input type="date" id="date" required>
             </div>
             <div class="form-group">
-                <label for="status">Status</label>
+                <label for="status">Status Kehadiran</label>
                 <select id="status" required>
                     <option value="hadir">Hadir</option>
                     <option value="izin">Izin</option>
                     <option value="alpa">Alpa</option>
                 </select>
             </div>
-            <button type="submid">Kirim</button>
+            <button type="submit">Kirim</button>
         </form>
         
         <h3>Data absensi</h3>
