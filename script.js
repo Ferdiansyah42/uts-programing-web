@@ -14,4 +14,8 @@ document.getElementById('attendance-form').addEventListener('submit', function(e
 // menambahkan kolom, untuk menampung nama, tanggal, dan status kehadiran
     newRow.innerHTML = `<td>${name}</td><td>${date}</td><td>${status}</td>`;
 
+// Mereset formulir setelah pengiriman
+    this.reset();
+
+
 })
