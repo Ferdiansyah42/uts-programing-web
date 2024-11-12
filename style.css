@@ -2,9 +2,9 @@
 :root{
     --primary-color: #000000;
     --secondary-color: #a8d0e6;
-    --background-color: aqua;
-    --background-image: url(suny.jpg);
-    --text-color: #000;
+    --background-color: #43b5d1;
+    --background-image: url('suny.jpg');
+    --text-color: #000000;
 }
 
 *{
