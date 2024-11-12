@@ -48,3 +48,15 @@ body {
 .header p {
     font-size: 1em;
 }
+
+/* formulir */
+.attendance-form {
+    background-color: rgba(255, 255, 255, 0.575);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600%;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 10px 11px #000000fb;
+}
