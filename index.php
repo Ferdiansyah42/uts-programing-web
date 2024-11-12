@@ -35,6 +35,17 @@
             </div>
             <button type="submid">Kirim</button>
         </form>
+        
+        <h3>Data absensi</h3>
+        <table id="attendance-tabel">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Tanggal</th>
+                    <th>Status kehadiran</th>
+                </tr>
+            </thead>
+        </table>
     </section>
 </body>
 </html>
