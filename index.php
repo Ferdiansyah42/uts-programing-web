@@ -32,6 +32,7 @@
                     <option value="alpa">Alpa</option>
                 </select>
             </div>
+            <button type="submid">Kirim</button>
         </form>
     </section>
 </body>
