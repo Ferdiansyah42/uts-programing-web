@@ -36,13 +36,13 @@
             <button type="submit">Kirim</button>
         </form>
         
-        <h3>Data absensi</h3>
-        <table id="attendance-tabel">
+        <h3>Data Absensi:</h3>
+        <table id="attendance-table">
             <thead>
                 <tr>
                     <th>Nama</th>
                     <th>Tanggal</th>
-                    <th>Status kehadiran</th>
+                    <th>Status Kehadiran</th>
                 </tr>
             </thead>
             <tbody>
