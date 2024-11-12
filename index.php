@@ -27,7 +27,7 @@
             </div>
             <div class="form-group">
                 <label for="status">Status</label>
-                <select id="status">
+                <select id="status" required>
                     <option value="hadir">Hadir</option>
                     <option value="izin">Izin</option>
                     <option value="alpa">Alpa</option>
