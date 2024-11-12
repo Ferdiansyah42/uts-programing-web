@@ -37,7 +37,7 @@ body {
     border-radius: 8px;
     width: 100%;
     max-width: 600px;
-    box-shadow: 0 10 px 20px rgba(22, 22, 22, 0.466);
+    box-shadow: 0 10px 20px rgba(22, 22, 22, 0.466);
 }
 
 .header h1 {
