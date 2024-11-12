@@ -22,7 +22,7 @@
                 <input type="text" id="name" placeholder=" Masukan nama Anda">
             </div>
             <div class="form-group">
-                <label for="date">Tanggal lahir</label>
+                <label for="date">Tanggal</label>
                 <input type="text" id="date" required>
             </div>
             <div class="form-grooup">
