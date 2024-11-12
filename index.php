@@ -45,6 +45,18 @@
                     <th>Status kehadiran</th>
                 </tr>
             </thead>
+            <tbody>
+                <!-- php -->
+                <?php
+                if (inset($_GET['name']) && inset($_GET['date']) && inset($_GET['status'])) {
+                    $name = htmlspecialchars($_GET['name']);
+                    $date = htmlspecialchars($_GET['date']);
+                    $status = htmlspecialchars($_GET['status']);
+
+                    echo "<tr><td>{$name}</td><td>{$date}</td><td>{$status}</td></tr>";
+                }
+                ?>
+            </tbody>
         </table>
     </section>
 </body>
