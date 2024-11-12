@@ -10,8 +10,6 @@ document.getElementById('attendance-form').addEventListener('submit', function(e
 // memasukan data ke tabel
     const table = document.getElementById('attendance-table').getElementsByTagName('tbody')[0];
     const newRow = table.insertRow();
-
-// menambahkan kolom, untuk menampung nama, tanggal, dan status kehadiran
     newRow.innerHTML = `<td>${name}</td><td>${date}</td><td>${status}</td>`;
 
 // Mereset formulir setelah pengiriman
