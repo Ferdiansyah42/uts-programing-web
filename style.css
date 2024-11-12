@@ -1,0 +1,15 @@
+/* root untuk tema */
+:root{
+    --primary-color: #000000;
+    --secondary-color: #a8d0e6;
+    --background-color: aqua;
+    --background-image: url(suny.jpg);
+    --text-color: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
