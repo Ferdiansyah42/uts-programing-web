@@ -99,3 +99,24 @@ button[type="submit"] {
 button[type="submid"]:hover {
     background-color: #1b45a1;
 }
+
+/* tabel absensi */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid var(--primary-color);
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: white;
+}
