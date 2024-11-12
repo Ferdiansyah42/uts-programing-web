@@ -8,7 +8,7 @@ document.getElementById('attendance-form').addEventListener('submit', function(e
     const status = document.getElementById('status').value;
 
 // memasukan data ke tabel
-    const tabel = document.getElementById('attendance-tabel').getElementsByTagName('tbody')[0];
+    const table = document.getElementById('attendance-table').getElementsByTagName('tbody')[0];
     const newRow = table.insertRow();
 
 // menambahkan kolom, untuk menampung nama, tanggal, dan status kehadiran
