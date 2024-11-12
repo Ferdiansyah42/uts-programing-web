@@ -60,3 +60,8 @@ body {
     text-align: center;
     box-shadow: 0 10px 11px #000000fb;
 }
+
+.attendance-form h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
