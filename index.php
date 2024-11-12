@@ -19,7 +19,7 @@
         <form id="attendance-from">
             <div class="form-group">
                 <label for="name">Nama</label>
-                <input type="text" id="name" placeholder=" Masukan nama Anda">
+                <input type="text" id="name" placeholder=" Masukan nama Anda" required>
             </div>
             <div class="form-group">
                 <label for="date">Tanggal</label>
