@@ -12,6 +12,9 @@ document.getElementById('attendance-form').addEventListener('submit', function(e
     const newRow = table.insertRow();
     newRow.innerHTML = `<td>${name}</td><td>${date}</td><td>${status}</td>`;
 
+// mengirim data ke php
+    window.location.href = `index.php?name=${encodeURIComponent(name)}&date=${encodeURIComponent(date)}&status=${encodeURIComponent(status)}`;
+
 // Mereset formulir setelah pengiriman
     this.reset();
 
