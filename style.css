@@ -96,7 +96,7 @@ button[type="submit"] {
     transition: background-color 0.3s;
 }
 
-button[type="submid"]:hover {
+button[type="submit"]:hover {
     background-color: #1b45a1;
 }
 
