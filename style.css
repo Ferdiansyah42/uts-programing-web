@@ -45,10 +45,6 @@ body {
     margin-bottom: 5px;
 }
 
-.header p {
-    font-size: 1em;
-}
-
 /* formulir */
 .attendance-form {
     background-color: rgba(255, 255, 255, 0.575);
