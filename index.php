@@ -25,7 +25,7 @@
                 <label for="date">Tanggal</label>
                 <input type="date" id="date" required>
             </div>
-            <div class="form-grooup">
+            <div class="form-group">
                 <label for="status">Status</label>
                 <select id="status">
                     <option value="hadir">Hadir</option>
