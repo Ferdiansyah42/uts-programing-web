@@ -24,6 +24,14 @@
                 <label for="date">Tanggal lahir</label>
                 <input type="text" id="date" required>
             </div>
+            <div class="form-grooup">
+                <label for="status">Status</label>
+                <select id="status">
+                    <option value="hadir">Hadir</option>
+                    <option value="izin">Izin</option>
+                    <option value="alpa">Alpa</option>
+                </select>
+            </div>
         </form>
     </section>
 </body>
