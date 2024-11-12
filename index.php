@@ -20,6 +20,10 @@
                 <label for="name">Nama</label>
                 <input type="text" id="name" placeholder=" Masukan nama Anda">
             </div>
+            <div class="form-group">
+                <label for="date">Tanggal lahir</label>
+                <input type="text" id="date" required>
+            </div>
         </form>
     </section>
 </body>
